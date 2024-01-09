@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2><u>Registration form</u></h2>
+    <form>
+        <label for="name">First Name</label>
+        <input type="adress" id="name" name="name" required><br><br>
+        <label for="surname">Last Name</label>
+        <input type="text" id="surname" name="surname" required><br><br>
+        <label for="nickname">Nick Name</label>
+        <input type="text" id="nickname" name="nickname" required><br><br>
+        <label for="email">e-mail</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <label for="date">Date of Birth</label>
+        <input type="date" id="date" name="date" required><br><br>
+        <label for="Gender">Gender</label>
+        <input type="radio" id="radio" name="radio" required>Male</input>
+        <input type="radio" id="radio" name="radio" required>Female</input>
+        <input type="radio" id="radio" name="radio" required>Others</input><br><br>
+        <label for="mobile">Mobile</label>
+        <input type="tel" id="tel" name="tel" required><br><br>
+        <label for="address">Address</label>
+        <textarea name="address" id="address" cols="20" rows="5"></textarea><br><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
+</body>
+</html>
